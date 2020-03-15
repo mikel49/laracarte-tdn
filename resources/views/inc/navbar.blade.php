@@ -13,7 +13,7 @@
                     </button>
 
                     <!-- Branding Image -->
-                    <a class="navbar-brand" href="{{ route('route_path') }}">Laracarte</a>
+                    <a class="navbar-brand" href="{{ route('route_path') }}">{{ config('app.name') }}</a>
                 </div>
 
                 <div class="collapse navbar-collapse" id="app-navbar-collapse">
