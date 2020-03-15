@@ -19,8 +19,8 @@
                 <div class="collapse navbar-collapse" id="app-navbar-collapse">
                     <!-- Left Side Of Navbar -->
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="{{ route('route_path') }}">Home</a></li>
-                        <li><a href="{{ route('about_path') }}">About</a></li>
+                        <li class="{{ set_active_route('route_path') }}"><a href="{{ route('route_path') }}">Home</a></li>
+                        <li class="{{ set_active_route('about_path') }}"><a href="{{ route('about_path') }}">About</a></li>
                         <li><a href="#Artisan">Artisan</a></li>
                         <li class="dropdown">
                                 <a href="#Planet" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" aria-haspopup="true" v-pre>
