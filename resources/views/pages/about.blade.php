@@ -20,7 +20,7 @@
     
     <h2>What is Laramap?</h2>
     <p>Laramap is the website by which {{ config('app.name') }} was inspired :).</p>
-    <p>More info <a href="https://laramap.com">here</a></p>
+    <p>More info <a href="https://laramap.com" target="_blank">here</a></p>
     
     <hr>
     

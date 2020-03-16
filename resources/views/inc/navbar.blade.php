@@ -35,7 +35,7 @@
                                 <li><a href="https://larachat.com">Larachat</a></li>
                             </ul>
                             <li>
-                        <li><a href="#Contact">Contact</a></li>
+                        <li class="{{ set_active_route('contact_path') }}"><a href="{{ route('contact_path') }}">Contact</a></li>
                         
                     </ul>
 
