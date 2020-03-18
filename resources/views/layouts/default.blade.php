@@ -38,5 +38,6 @@
     <script src="//code.jquery.com/jquery.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.bundle.min.js" /></script>
     <script src="{{ asset('js/app.js') }}"></script>
+    @include('flashy::message')
     </body>
 </html>

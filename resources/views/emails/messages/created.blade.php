@@ -1,7 +1,14 @@
+@component('mail::message')
+# Hey Administration,
 
-<h2>{{ $name }}</h2>
-<ul>
-    <li>{{ $email }}</li>
-    <li>{{ $msg }}</li>
-</ul>
+- {{ $name }}
+- {{ $email }}
 
+
+@component('mail::panel')
+{{ $msg }}
+@endcomponent
+
+Thanks,<br>
+{{ config('app.name') }}
+@endcomponent

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8c509a8a24d488283a6a8a2bf0b604fe",
+    "content-hash": "5c97d8413ec75aa4f0aa366a2aca12a4",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -929,6 +929,59 @@
                 "storage"
             ],
             "time": "2020-03-08T18:53:20+00:00"
+        },
+        {
+            "name": "mercuryseries/flashy",
+            "version": "1.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mercuryseries/flashy.git",
+                "reference": "88822628dcf36484b524f8873c7672d454145f1d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mercuryseries/flashy/zipball/88822628dcf36484b524f8873c7672d454145f1d",
+                "reference": "88822628dcf36484b524f8873c7672d454145f1d",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "~5.0|~6.0",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "dev-master"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "MercurySeries\\Flashy\\FlashyServiceProvider"
+                    ],
+                    "aliases": {
+                        "Flashy": "MercurySeries\\Flashy\\Flashy"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "MercurySeries\\Flashy": "src/"
+                },
+                "files": [
+                    "src/MercurySeries/Flashy/functions.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Honore Hounwanou",
+                    "email": "mercuryseries@gmail.com"
+                }
+            ],
+            "description": "Easy flash notifications",
+            "time": "2019-09-16T09:14:55+00:00"
         },
         {
             "name": "monolog/monolog",

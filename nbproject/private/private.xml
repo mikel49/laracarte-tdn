@@ -3,18 +3,18 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/wamp/www/laracarte/config/mail.php</file>
-            <file>file:/C:/wamp/www/laracarte/resources/views/inc/navbar.blade.php</file>
+            <file>file:/C:/wamp/www/laracarte/resources/views/layouts/default.blade.php</file>
             <file>file:/C:/wamp/www/laracarte/routes/web.php</file>
-            <file>file:/C:/wamp/www/laracarte/resources/views/contacts/create.blade.php</file>
-            <file>file:/C:/wamp/www/laracarte/.env</file>
-            <file>file:/C:/wamp/www/laracarte/app/Mail/ContactMessageCreated.php</file>
+            <file>file:/C:/wamp/www/laracarte/app/Mail/ContactMessageCreated_1.php</file>
+            <file>file:/C:/wamp/www/laracarte/resources/views/emails/messages/created.blade_1.php</file>
+            <file>file:/C:/wamp/www/laracarte/storage/logs/laravel.log</file>
             <file>file:/C:/wamp/www/laracarte/resources/views/emails/messages/created.blade.php</file>
-            <file>file:/C:/wamp/www/laracarte/resources/views/pages/about.blade.php</file>
+            <file>file:/C:/wamp/www/laracarte/app/Mail/ContactMessageCreated.php</file>
+            <file>file:/C:/wamp/www/laracarte/.env</file>
+            <file>file:/C:/wamp/www/laracarte/resources/views/contacts/create.blade.php</file>
             <file>file:/C:/wamp/www/laracarte/app/Http/Requests/ContactRequest.php</file>
-            <file>file:/C:/wamp/www/laracarte/resources/views/pages/home.blade.php</file>
+            <file>file:/C:/wamp/www/laracarte/resources/views/vendor/flashy/message.blade.php</file>
             <file>file:/C:/wamp/www/laracarte/app/Http/Controllers/ContactsController.php</file>
-            <file>file:/C:/wamp/www/laracarte/resources/views/inc/footer.blade.php</file>
         </group>
     </open-files>
 </project-private>
