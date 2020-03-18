@@ -5,8 +5,7 @@
     <div class="row">
         <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
             <h2>Get In Touch</h2>
-            <!--<p class="text-muted">If you having trouble with this service, please <a href="
-             mailto:michel4991@yahoo.com">ask for help.</a></p>-->
+            
              <p class="text-muted">If you having trouble with this service, please <a href="
              mailto:{{ config('laracarte.admin_support_email') }}">ask for help.</a></p>
              
