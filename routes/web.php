@@ -22,4 +22,4 @@ Route::name('contact_path')->post('/contact', 'ContactsController@store');
 Route::get('/about', [
    'as' => 'about_path',
    'users' => 'PagesController@about'
-]);
+]);*/
